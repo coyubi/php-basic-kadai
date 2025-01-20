@@ -23,7 +23,6 @@
       }
       $food=new Food('poteto',250);
       print_r($food);
-      $food->show_price();
       echo '<br>';
 
       class Animal{
@@ -42,9 +41,9 @@
       }
       $animal=new Animal('dog',60,5000);
       print_r($animal);
+      echo '<br>';
+      $food->show_price();
       $animal->show_height();
-
-
       ?>
   </p>
 </body>
